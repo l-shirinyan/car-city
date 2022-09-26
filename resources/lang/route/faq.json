@@ -1,0 +1,17 @@
+{
+    "title": "Faq",
+    "created_at": "2022-08-22 11:00:54",
+    "updated_at": "2022-08-22 15:01:08",
+    "attributes": {
+        "faq": [
+            {
+                "layout": "faq",
+                "key": "zhVkSngK6DOS3Cxk",
+                "attributes": {
+                    "question": "This is a first question",
+                    "answer": "This is the answer"
+                }
+            }
+        ]
+    }
+}

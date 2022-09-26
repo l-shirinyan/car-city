@@ -1,0 +1,32 @@
+{
+    "title": "Home Page",
+    "created_at": "2022-08-18 16:16:50",
+    "updated_at": "2022-08-19 12:58:34",
+    "attributes": {
+        "hero_section_title": "Header Test title",
+        "hero_section_description": "Header Test Description",
+        "hero_section_bg": "#79D2AB",
+        "promoted_vehicule_text": "Brand new Jeep",
+        "promoted_vehicule_description": "Amazing car",
+        "title": "What our customers say",
+        "testimonials": [
+            {
+                "layout": "home_testimonials",
+                "key": "CSPrWwT3IeW2rKQY",
+                "attributes": {
+                    "posted_date": "2022-08-09",
+                    "name": "Bryan",
+                    "rate": "5",
+                    "content": "Love this place !"
+                }
+            }
+        ],
+        "img_text_text": "enjoy buy a new car",
+        "img_text_image": "ADpcgjoOm8gjLNULDDEvtI2T9JFVRC4JVbtk4PqJ.jpg",
+        "promoted_vehicule_image": "Ku2DRGulv49P3rIOcxQENuKPDaGVJipbOwoMNBou.jpg",
+        "business_left_text": "Car City has been buying and selling cars on Grand Cayman for more than four decades",
+        "business_right_text": "During this time the established company has developed an incomparable and respected track record within the motoring industry.",
+        "business_left_image": "VkGmG4lO6962A333wNDBV0ZcVbm37MsHkpE6Mrv7.jpg",
+        "business_right_image": "1UcndUNbHdQOIi2i7l6XFHsl9dtxPes23LcpyWnO.jpg"
+    }
+}

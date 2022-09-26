@@ -1,0 +1,37 @@
+{
+    "title": "business information",
+    "created_at": "2022-08-19 15:21:59",
+    "updated_at": "2022-08-22 13:31:02",
+    "attributes": {
+        "sales_number": "(345) 949 0440",
+        "service_number": "(345) 949 5525",
+        "parts_number": "(345) 949 7730",
+        "bodyshop_number": "(345) 949 5728",
+        "contact": [
+            {
+                "layout": "business_contact",
+                "key": "QYiGfQRfKo6vb5a2",
+                "attributes": {
+                    "contact_title": "Sales",
+                    "contact_address": "151 Industrial Way, George Town, Grand Cayman. ",
+                    "contact_email": "sales@carcitycayman.com",
+                    "contact_week_opening": "Mon - Fri 09.00 AM - 05.00 PM",
+                    "contact_week_end_popening": "Sat - Sun Closed",
+                    "contact_phone_number": "(345) 949 0440"
+                }
+            },
+            {
+                "layout": "business_contact",
+                "key": "YNJY8uxcbiDqnSyC",
+                "attributes": {
+                    "contact_title": "Service",
+                    "contact_address": "151 Industrial Way, George Town, Grand Cayman. ",
+                    "contact_email": "bodyshop@carcitycayman.com",
+                    "contact_week_opening": "Mon - Fri 09.00 AM - 05.00 PM",
+                    "contact_week_end_popening": "Sat - Sun Closed",
+                    "contact_phone_number": "(345) 949 0440"
+                }
+            }
+        ]
+    }
+}

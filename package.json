@@ -1,0 +1,37 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "serve": "composer update && php artisan optimize && php artisan cache:clear && php artisan route:clear && php artisan migrate && php artisan serve"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.7",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.14",
+        "sass": "^1.54.4",
+        "sass-loader": "^12.1.0",
+        "tailwindcss": "^3.1.8",
+        "ts-loader": "^9.3.1",
+        "typescript": "^4.7.4"
+    },
+    "dependencies": {
+        "@egjs/vue3-view360": "^3.0.2",
+        "@vue/compiler-sfc": "^3.2.37",
+        "@vuelidate/core": "^2.0.0-alpha.44",
+        "@vuelidate/validators": "^2.0.0-alpha.31",
+        "animejs": "^3.2.1",
+        "click-outside-vue3": "^4.0.1",
+        "vue": "^3.2.36",
+        "vue-loader": "^17.0.0",
+        "vue3-carousel": "^0.1.40",
+        "vue3-tel-input": "^1.0.4"
+    }
+}

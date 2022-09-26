@@ -1,0 +1,20 @@
+{
+    "title": null,
+    "created_at": "2022-08-19 13:25:12",
+    "updated_at": "2022-08-19 13:25:12",
+    "attributes": {
+        "title": "What our customers say",
+        "testimonials": [
+            {
+                "layout": "home_testimonials",
+                "key": "3YBL0xb9fjxl12NH",
+                "attributes": {
+                    "posted_date": "2022-08-19",
+                    "name": "Bryan",
+                    "rate": "5",
+                    "content": "Best comment ever"
+                }
+            }
+        ]
+    }
+}

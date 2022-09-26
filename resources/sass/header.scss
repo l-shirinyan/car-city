@@ -1,0 +1,47 @@
+#v-header {
+    .header-information {
+        @apply bg-grey-900 py-2 2K:py-4 px-8 2K:px-containter;
+
+        ul {
+            @apply flex justify-end;
+
+            li {
+                @apply text-white 2K:text-base 2K:leading-7 HD:leading-5 HD:text-xxs;
+
+                span {
+                    @apply mx-6;
+                }
+            }
+        }
+    }
+
+    .navigation {
+        ul {
+            @apply flex;
+
+            li {
+                @apply font-medium ml-8 text-xs text-grey-900 leading-6 flex justify-between items-center cursor-pointer hover:underline hover:text-primary 2K:leading-9 2K:text-m gap-2;
+
+                &.primary-arrow {
+                    img {
+                        @apply w-[20px] 2K:w-[24px];
+                    }
+                }
+            }
+        }
+    }
+
+    .dropdown-menu {
+        @apply bg-white justify-between HD:px-6 HD:py-10 full-HD:px-8 full-HD:py-10 2K:px-x200 2K:py-x100 border-t-2 border-grey-900 flex;
+
+        .brand-label {
+            @apply hover:text-primary font-medium text-grey-900 HD:mb-4 full-HD:leading-6 2K:mb-6 2K:leading-9 full-HD:text-xs 2K:text-lg cursor-pointer;
+        }
+    }
+}
+
+
+.primary-arrow:hover img {
+    filter: invert(19%) sepia(43%) saturate(6225%) hue-rotate(197deg)
+        brightness(89%) contrast(99%);
+}
